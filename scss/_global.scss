@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-color;
+  background-color: $white;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.container {
+  max-width: 1325px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-content {
+  flex-grow: 1;
+}
